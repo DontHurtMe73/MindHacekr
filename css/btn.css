@@ -1,0 +1,22 @@
+
+.btn {
+  font-size: 1.2em;
+  width: 200px;
+  height: 70px;
+  background: #06c1de;
+  border: 0px;
+  position: relative;
+  box-shadow: inset -4px 2px 1px 1px #222, inset -4px -2px 1px 1px #222,
+    inset 4px 0px 1px 1px #222;
+}
+
+.form__btn:hover {
+  cursor: pointer;
+  background-color: #06b6d1;
+}
+
+.form__btn:active {
+  top: 5px;
+  box-shadow: -4px 2px 1px 1px grey, -4px -2px 1px 1px lightgray,
+    4px 0px 1px 1px lightgray;
+}

@@ -1,0 +1,11 @@
+.sound-block {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.sound-block button {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
